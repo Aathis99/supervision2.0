@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 26, 2025 at 08:32 AM
+-- Generation Time: Nov 26, 2025 at 09:27 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -41,7 +41,8 @@ INSERT INTO `certificate_log` (`id`, `session_id`, `generated_at`) VALUES
 (1, 31, '2025-11-25 06:37:26'),
 (2, 32, '2025-11-25 06:51:52'),
 (3, 40, '2025-11-25 14:11:44'),
-(4, 42, '2025-11-25 14:37:36');
+(4, 42, '2025-11-25 14:37:36'),
+(5, 43, '2025-11-26 07:53:41');
 
 -- --------------------------------------------------------
 
@@ -64,7 +65,9 @@ INSERT INTO `images` (`id`, `session_id`, `file_name`, `uploaded_on`) VALUES
 (5, 38, 'img_6923e2a10a5bb8.15544657.png', '2025-11-24 11:44:17'),
 (6, 38, 'img_6923e2a1165613.46771415.jpg', '2025-11-24 11:44:17'),
 (7, 41, 'img_6925bc9a7edd42.97946460.jpg', '2025-11-25 21:26:34'),
-(8, 41, 'img_6925bc9a7f27d8.32807572.jfif', '2025-11-25 21:26:34');
+(8, 41, 'img_6925bc9a7f27d8.32807572.jfif', '2025-11-25 21:26:34'),
+(9, 43, 'img_6926b1c932ccf5.27316957.png', '2025-11-26 14:52:41'),
+(10, 43, 'img_6926b1c94ba522.31734026.jpg', '2025-11-26 14:52:41');
 
 -- --------------------------------------------------------
 
@@ -372,7 +375,31 @@ INSERT INTO `kpi_answers` (`id`, `session_id`, `question_id`, `rating_score`, `c
 (732, 42, 21, 3, ''),
 (733, 42, 22, 3, ''),
 (734, 42, 23, 3, ''),
-(735, 42, 24, 3, '');
+(735, 42, 24, 3, ''),
+(736, 43, 1, 3, 'aaa'),
+(737, 43, 2, 3, 'aaa'),
+(738, 43, 3, 3, 'asd'),
+(739, 43, 4, 3, 'asdasd'),
+(740, 43, 5, 3, 'asdasd'),
+(741, 43, 6, 3, 'asdasd'),
+(742, 43, 7, 3, ''),
+(743, 43, 8, 3, 'asdasd'),
+(744, 43, 9, 3, ''),
+(745, 43, 10, 3, ''),
+(746, 43, 11, 3, ''),
+(747, 43, 12, 3, ''),
+(748, 43, 13, 3, ''),
+(749, 43, 14, 3, ''),
+(750, 43, 15, 3, ''),
+(751, 43, 16, 3, ''),
+(752, 43, 17, 3, ''),
+(753, 43, 18, 3, ''),
+(754, 43, 19, 3, ''),
+(755, 43, 20, 3, ''),
+(756, 43, 21, 3, ''),
+(757, 43, 22, 3, ''),
+(758, 43, 23, 3, ''),
+(759, 43, 24, 3, '');
 
 -- --------------------------------------------------------
 
@@ -513,7 +540,15 @@ INSERT INTO `kpi_indicator_suggestions` (`id`, `session_id`, `indicator_id`, `su
 (242, 42, 5, 'ทดสอบข้อมูล'),
 (243, 42, 6, 'ทดสอบข้อมูล'),
 (244, 42, 7, 'ทดสอบข้อมูล'),
-(245, 42, 8, 'ทดสอบข้อมูล');
+(245, 42, 8, 'ทดสอบข้อมูล'),
+(246, 43, 1, 'ทดสอบข้อมูล'),
+(247, 43, 2, 'ทดสอบข้อมูลasdasd'),
+(248, 43, 3, 'ทดสอบข้อมูล'),
+(249, 43, 4, 'ทดสอบข้อมูล'),
+(250, 43, 5, 'ทดสอบข้อมูล'),
+(251, 43, 6, 'ทดสอบข้อมูล'),
+(252, 43, 7, 'ทดสอบข้อมูล'),
+(253, 43, 8, 'ทดสอบข้อมูล');
 
 -- --------------------------------------------------------
 
@@ -582,7 +617,8 @@ INSERT INTO `quick_win` (`id`, `t_id`, `p_id`, `supervision_date`) VALUES
 (5, '1520600036859', '1529900270499', '2025-11-26 10:42:37'),
 (6, '1509901218768', '3520900142120', '2025-11-26 10:46:31'),
 (0, '3510600301451', '1560100030525', '2025-11-26 13:55:54'),
-(0, '1520600036859', '3520100379974', '2025-11-26 14:07:27');
+(0, '1520600036859', '3520100379974', '2025-11-26 14:07:27'),
+(0, '3500600241742', '3509900553730', '2025-11-26 15:02:19');
 
 -- --------------------------------------------------------
 
@@ -661,7 +697,22 @@ INSERT INTO `satisfaction_answers` (`id`, `session_id`, `question_id`, `rating`)
 (57, 42, 12, 5),
 (58, 42, 13, 5),
 (59, 42, 14, 5),
-(60, 42, 15, 5);
+(60, 42, 15, 5),
+(61, 43, 1, 5),
+(62, 43, 2, 5),
+(63, 43, 3, 5),
+(64, 43, 4, 5),
+(65, 43, 5, 5),
+(66, 43, 6, 5),
+(67, 43, 7, 5),
+(68, 43, 8, 5),
+(69, 43, 9, 5),
+(70, 43, 10, 5),
+(71, 43, 11, 5),
+(72, 43, 12, 5),
+(73, 43, 13, 5),
+(74, 43, 14, 5),
+(75, 43, 15, 5);
 
 -- --------------------------------------------------------
 
@@ -820,7 +871,8 @@ INSERT INTO `supervision_sessions` (`id`, `supervisor_p_id`, `teacher_t_pid`, `s
 (39, '3509900553730', '1301300187871', 'ท0001', 'ภาษาไทย', 4, '2025-11-25', '-', '2025-11-25 14:05:48', NULL, 0, NULL),
 (40, '3509900553730', '3900200192635', 'พ001', 'พละ', 6, '2025-11-25', '-', '2025-11-25 14:10:56', '', 1, '2025-11-25 21:11:43'),
 (41, '5520700016810', '1529900190924', 'ท0001', 'ภาษาไทย', 9, '2025-11-25', '-', '2025-11-25 14:26:34', NULL, 0, NULL),
-(42, '5520700016810', '1505300005693', 'ค0001', 'ภาษาไทย', 1, '2025-11-25', '-', '2025-11-25 14:36:42', '', 1, '2025-11-25 21:37:34');
+(42, '5520700016810', '1505300005693', 'ค0001', 'ภาษาไทย', 1, '2025-11-25', '-', '2025-11-25 14:36:42', '', 1, '2025-11-25 21:37:34'),
+(43, '3509900553730', '3659900688618', 'ท0001', 'ภาษาไทย', 1, '2025-11-26', '-', '2025-11-26 07:52:41', 'vvvv', 1, '2025-11-26 14:53:09');
 
 -- --------------------------------------------------------
 
@@ -2559,7 +2611,7 @@ CREATE TABLE `view_teacher_core_groups` (
 ,`lname` varchar(100)
 ,`learning_group_id` int(3)
 ,`original_group_name` varchar(255)
-,`core_learning_group` varchar(28)
+,`core_learning_group` varchar(48)
 ,`sci_tech_type` varchar(11)
 );
 
@@ -2614,7 +2666,7 @@ CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW 
 --
 DROP TABLE IF EXISTS `view_teacher_core_groups`;
 
-CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `view_teacher_core_groups`  AS SELECT `t`.`t_pid` AS `t_pid`, `t`.`prefix_id` AS `prefix_id`, `t`.`PrefixName` AS `PrefixName`, `t`.`fname` AS `fname`, `t`.`lname` AS `lname`, `t`.`learning_group_id` AS `learning_group_id`, `t`.`learning_group` AS `original_group_name`, CASE WHEN `t`.`learning_group_id` in (1311,1352) THEN 'ภาษาไทย' WHEN `t`.`learning_group_id` = 1312 THEN 'คณิตศาสตร์' WHEN `t`.`learning_group_id` in (1313,1314,1315,1316,1394,9905) THEN 'วิทยาศาสตร์และเทคโนโลยี' WHEN `t`.`learning_group_id` = 1319 THEN 'สังคมศึกษา ศาสนา และวัฒนธรรม' WHEN `t`.`learning_group_id` in (1322,1323) THEN 'สุขศึกษาและพลศึกษา' WHEN `t`.`learning_group_id` in (1324,1326,1327,1329,1330) THEN 'ศิลปะ' WHEN `t`.`learning_group_id` in (1351,1303,1305,1308,1301) THEN 'การงานอาชีพ' WHEN `t`.`learning_group_id` in (1339,1340,1344,1345,1346) THEN 'ภาษาต่างประเทศ' ELSE 'อื่นๆ/ไม่ระบุ' END AS `core_learning_group`, CASE WHEN `t`.`learning_group_id` in (1313,1314,1315,1316,1394) THEN 'วิทยาศาสตร์' WHEN `t`.`learning_group_id` = 9905 THEN 'เทคโนโลยี' ELSE NULL END AS `sci_tech_type` FROM `teacher` AS `t` ;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `view_teacher_core_groups`  AS SELECT `t`.`t_pid` AS `t_pid`, `t`.`prefix_id` AS `prefix_id`, `t`.`PrefixName` AS `PrefixName`, `t`.`fname` AS `fname`, `t`.`lname` AS `lname`, `t`.`learning_group_id` AS `learning_group_id`, `t`.`learning_group` AS `original_group_name`, CASE WHEN `t`.`learning_group` like '%ภาษาไทย%' THEN 'กลุ่มสาระการเรียนรู้ภาษาไทย' WHEN `t`.`learning_group` like '%คณิตศาสตร์%' THEN 'กลุ่มสาระการเรียนรู้คณิตศาสตร์' WHEN `t`.`learning_group` regexp 'วิทยาศาสตร์|เคมี|ฟิสิกส์|ชีววิทยา|คอมพิวเตอร์|เทคโนโลยี|โลก ดาราศาสตร์' THEN 'กลุ่มสาระการเรียนรู้วิทยาศาสตร์และเทคโนโลยี' WHEN `t`.`learning_group` like '%สังคม%' OR `t`.`learning_group` like '%ประวัติศาสตร์%' OR `t`.`learning_group` like '%ภูมิศาสตร์%' THEN 'กลุ่มสาระการเรียนรู้สังคมศึกษา ศาสนา และวัฒนธรรม' WHEN `t`.`learning_group` regexp 'สุขศึกษา|พลศึกษา|พละ' THEN 'กลุ่มสาระการเรียนรู้สุขศึกษาและพลศึกษา' WHEN `t`.`learning_group` regexp 'ศิลป|ดนตรี|นาฎศิลป์|ทัศนศิลป์' THEN 'กลุ่มสาระการเรียนรู้ศิลปะ' WHEN `t`.`learning_group` regexp 'การงาน|เกษตร|คหกรรม|อุตสาหกรรม|พณิชยกรรม|บริหารธุรกิจ' THEN 'กลุ่มสาระการเรียนรู้การงานอาชีพ' WHEN `t`.`learning_group` regexp 'อังกฤษ|จีน|ญี่ปุ่น|ฝรั่งเศส|เกาหลี|ต่างประเทศ' THEN 'กลุ่มสาระการเรียนรู้ภาษาต่างประเทศ' WHEN `t`.`learning_group` like '%แนะแนว%' THEN 'กิจกรรมพัฒนาผู้เรียน' ELSE 'อื่นๆ' END AS `core_learning_group`, CASE WHEN `t`.`learning_group_id` in (1313,1314,1315,1316,1394) THEN 'วิทยาศาสตร์' WHEN `t`.`learning_group_id` = 9905 THEN 'เทคโนโลยี' ELSE NULL END AS `sci_tech_type` FROM `teacher` AS `t` ;
 
 -- --------------------------------------------------------
 
@@ -2678,37 +2730,37 @@ ALTER TABLE `supervision_sessions`
 -- AUTO_INCREMENT for table `certificate_log`
 --
 ALTER TABLE `certificate_log`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `images`
 --
 ALTER TABLE `images`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `kpi_answers`
 --
 ALTER TABLE `kpi_answers`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=736;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=760;
 
 --
 -- AUTO_INCREMENT for table `kpi_indicator_suggestions`
 --
 ALTER TABLE `kpi_indicator_suggestions`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=246;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=254;
 
 --
 -- AUTO_INCREMENT for table `satisfaction_answers`
 --
 ALTER TABLE `satisfaction_answers`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=76;
 
 --
 -- AUTO_INCREMENT for table `supervision_sessions`
 --
 ALTER TABLE `supervision_sessions`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=43;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
 
 --
 -- Constraints for dumped tables
